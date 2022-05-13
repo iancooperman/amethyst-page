@@ -1,8 +1,31 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../img/city-scape-bg.jpg');
+  background-repeat: none;
+  background-size: cover;
+}
+
 .img { 
 	display:flex; 
 	justify-content:center; 
 	align-items:center; 
-} 
+}
+
+.gem-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gem-gif {
+  width: 80%;
+  height: 80%;
+}
 
 /* .navbar-brand{
     color: black;
@@ -27,6 +50,15 @@
 .footer_bottom {
   padding: 2em 0 ;
   background: #58058f ;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 50%;
+  text-align: center;
 }
 
 .jumbotron {
@@ -42,3 +74,4 @@
 footer a.text-light:hover { color: #fed136!important; text-decoration: none; }
 footer .cizgi { border-right: 1px solid #570279; }
 @media (max-width: 992px) { footer .cizgi { border-right: none; } }
+
