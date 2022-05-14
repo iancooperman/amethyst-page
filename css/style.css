@@ -1,6 +1,7 @@
 body{
   min-height: 100vh;
-  position: relative;
+  display: flex;
+  flex-direction: column;
   font-family: 'Lato', sans-serif !important;
   background-image: url('../img/city-scape-bg.jpg');
   background-repeat: none;
@@ -22,18 +23,17 @@ body{
   width: 80%;
   height: 80%;
 }
+
 .footer {
   font-family: 'Lato', sans-serif !important;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  display: flex;
+  width: 100%; 
+  display: flex; 
+  margin-top: auto;
   flex-direction: column;
   align-items: center;
   background-color: #570188;
   color: #FFF;
   padding: 1rem 0;
-  font-family: 'metro', 'sans-serif';
 }
 
 .footer-link {
