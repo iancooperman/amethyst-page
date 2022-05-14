@@ -1,18 +1,10 @@
 body{
+  min-height: 100vh;
+  position: relative;
   font-family: 'Lato', sans-serif !important;
-  width: 100vw;
-  height: 100vh;
   background-image: url('../img/city-scape-bg.jpg');
   background-repeat: none;
   background-size: cover;
-}
-
-
-
-.img { 
-	display:flex; 
-	justify-content:center; 
-	align-items:center; 
 }
 
 .gem-div {
