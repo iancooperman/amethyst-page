@@ -1,9 +1,14 @@
 body{
+  font-family: 'Lato', sans-serif !important;
   width: 100vw;
   height: 100vh;
   background-image: url('../img/city-scape-bg.jpg');
   background-repeat: none;
   background-size: cover;
+}
+
+.navbar {
+  font-family: 'Lato', sans-serif !important;
 }
 
 .img { 
@@ -27,6 +32,7 @@ body{
   height: 80%;
 }
 .footer {
+  font-family: 'Lato', sans-serif !important;
   position: absolute;
   bottom: 0;
   width: 100%;
