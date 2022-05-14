@@ -5,6 +5,7 @@ body{
   background-image: url('../img/city-scape-bg.jpg');
   background-repeat: none;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .gem-div {
