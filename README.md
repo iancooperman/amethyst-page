@@ -11,7 +11,7 @@ Built With:
 - CSS
 - Bootstrap Library
 
-###Team Resources
+### Team Resources
 
 #### Git Cheat Sheet
 
